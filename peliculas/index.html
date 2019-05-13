@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+  <title>AngularJs</title>
+</head>
+
+<body ng-controller="HelloAngular">
+  <h1>
+    {{helloMessage}}
+  </h1>
+  <h2>
+    {{helloMessage | uppercase}}
+  </h2>
+
+  <p> {{textservices}}</p>
+  <p>yo soy <b> {{nombre}}</b></p>
+
+  <input type='text' ng-model='nuevaPeli.titulo'> 
+  <input type='text' ng-model='nuevaPeli.fecha'> 
+<button ng-click='agregarPelicula()'>agregar</button>
+  <ul>
+    <li ng-repeat='pelicula in peliculas'>
+      {{pelicula.titulo}}
+      {{pelicula.fecha}}
+    </li>
+  </ul>
+
+  
+  <script src="https://code.angularjs.org/1.4.0/angular.js"></script>
+  <script src="./controller.js"></script>;
+
+</body>
+
+</html>
