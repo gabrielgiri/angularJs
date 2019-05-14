@@ -1,0 +1,9 @@
+html {
+    padding: 40px;
+    background-color: azure;
+}
+body {
+    padding: 40px;
+    background-color:aliceblue;
+    border: solid 1px grey;
+}
