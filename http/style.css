@@ -1,0 +1,17 @@
+html {
+    padding: 40px;
+    background-color: azure;
+}
+body {
+    padding: 40px;
+    background-color:aliceblue;
+    border: solid 1px grey;
+}
+
+li{
+    transition: all .3s;
+}
+
+li:hover{
+    background-color: white;
+}
